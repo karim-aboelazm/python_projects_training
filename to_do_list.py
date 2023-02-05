@@ -33,14 +33,14 @@ def delete_task(tasks):
 # control_tasks -->
 while True:
     print("""
-          TO Do Lists Using Python
-          -------------------------
-          1. Add Task.
-          2. Edit Task.
-          3. Delete Task.
-          4. Display Task.
-          5. Quit.
-          """)
+TO Do Lists Using Python
+-------------------------
+1. Add Task.
+2. Edit Task.
+3. Delete Task.
+4. Display Task.
+5. Quit.
+""")
     choice = int(input("Enter Yout Choice : "))
     if choice == 1:
         add_task(tasks)
