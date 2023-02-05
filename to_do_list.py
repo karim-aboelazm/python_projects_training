@@ -1,12 +1,13 @@
 tasks = []
+
 # display       -->
 def display_tasks(tasks):
     if len(tasks) == 0:
         print("No Tasks !")
     else:
-        for i, task in enumerate(tasks):
-            print(f"{str(i+1)}. {task}")
-                     
+        for i, task in enumerate(tasks): # indx:value
+            print(f"{str(i+1)}. {task}")                  
+
 # add_tasks     -->
 def add_task(tasks):
     task = input("Enter New Task : ")
